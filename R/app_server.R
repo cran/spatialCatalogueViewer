@@ -1,5 +1,7 @@
 app_server <- function(input, output, session) {
   
+  showNotification(HTML("<b>Loading... please wait.</b>"), id = "waiting.msg", duration = NULL, type = "message") # see 'removeNotification' below
+  
   # UI: credit ----
   output$credit <- renderUI({
     txt <- paste("Powered by <a href=github.com/sebastien-plutniak/spatialCatalogueViewer target=_blank>spatialCatalogueViewer</a> v",
@@ -29,7 +31,6 @@ app_server <- function(input, output, session) {
                            ), #end column
                            column(7, align="left",
                                   HTML(getShinyOption("text.top")),
-                                  textOutput("tmp"),
                                   br(),
                                   leaflet::leafletOutput("map", width="100%", height = getShinyOption("map.height")), ## map  ----
                                   fluidRow(
@@ -175,7 +176,7 @@ app_server <- function(input, output, session) {
       # subset
       data.sub <-  data.sub[c(idx.surf, idx.points), ]
     }
-    
+    removeNotification("waiting.msg")
     data.sub
   }, ignoreNULL = FALSE, ignoreInit = FALSE)
   
@@ -232,7 +233,7 @@ app_server <- function(input, output, session) {
   
   if(length(getShinyOption("map.legend.labels") > 0)){
     labels.1 <- getShinyOption("map.legend.labels")
-    labels.2 <- table(eval(parse(text = paste0("data$", getShinyOption("map.legend.variable")))))
+    labels.2 <- table(eval(parse(text = paste0("data$'", getShinyOption("map.legend.variable"), "'"))))
     
     if(sum(! labels.1 %in% names(labels.2)) > 0) {
       warning(paste0("Some 'map.legend.labels' values are absent in the '", getShinyOption("map.legend.variable"), "' variable."))

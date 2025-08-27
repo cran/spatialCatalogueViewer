@@ -1,7 +1,7 @@
-656c5b4cc5a332aaa756b8183f18a299 *DESCRIPTION
+923fdfe297c55c5b6801344bbe6a2bc4 *DESCRIPTION
 2c2cc37ea8105efcd5a3a09c254f557d *NAMESPACE
-c6686dcab815125909938bd11b815991 *NEWS.md
-a7946781b19b023d46e133b6a4225e98 *R/app_server.R
-381ebe6d57ebfa5bd37eff7de00700fe *R/app_ui.R
+cb563aa005454552ee53629fd1318baf *NEWS.md
+67b6dc10dc4a7098fb832d25f7667d36 *R/app_server.R
+012eabd9c2a4658087dcc1ccf613fe54 *R/app_ui.R
 9bc7a37da32db1d2227e168ee7dbc2e5 *R/spatialCatalogueViewer.R
 2f38fb6b2ea7acf1c2473507ab08caa5 *man/spatialCatalogueViewer.Rd
