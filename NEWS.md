@@ -1,3 +1,13 @@
+# spatialCatalogueViewer 0.2.0
+
+* The area selection feature is removed, due to the removal of the 'leaflet.extra' package from the CRAN.
+
+
+# spatialCatalogueViewer 0.1.4
+
+* Area display is disabled when no bounding box coordinate is given (bbox.lat1, etc.)
+
+
 # spatialCatalogueViewer 0.1.3
 Released: 2025-08-27
 
