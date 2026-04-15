@@ -1,4 +1,10 @@
+# spatialCatalogueViewer 0.2.1
+Released: 2026-02-26
+
+* Reintegrate area selection feature.
+
 # spatialCatalogueViewer 0.2.0
+Released: 2026-02-26
 
 * The area selection feature is removed, due to the removal of the 'leaflet.extra' package from the CRAN.
 

@@ -2,8 +2,8 @@ Package: spatialCatalogueViewer
 Type: Package
 Title: A 'Shiny' Tool to Create Interactive Catalogues for Geospatial
         Data
-Version: 0.2.0
-Date: 2026-02-25
+Version: 0.2.1
+Date: 2026-04-03
 Authors@R: person("Sebastien", "Plutniak", email = "sebastien.plutniak@posteo.net", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-6674-3806"))
 Author: Sebastien Plutniak [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-6674-3806>)
@@ -12,10 +12,10 @@ Description: Seamlessly create interactive online catalogues for geospatial data
 License: GPL-3
 Repository: CRAN
 Encoding: UTF-8
-Imports: leaflet, shiny, shinythemes, DT,
+Imports: leaflet, leaflet.extras, shiny, shinythemes, DT,
 Depends: R (>= 4.1.0)
 URL: https://github.com/sebastien-plutniak/spatialCatalogueViewer
 BugReports: https://github.com/sebastien-plutniak/spatialCatalogueViewer/issues
 NeedsCompilation: no
-Packaged: 2026-02-25 16:09:34 UTC; seb
-Date/Publication: 2026-02-25 21:20:09 UTC
+Packaged: 2026-04-03 15:09:14 UTC; seb
+Date/Publication: 2026-04-15 16:40:02 UTC

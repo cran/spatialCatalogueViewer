@@ -1,7 +1,7 @@
-a97e99fad68fb3db226273cafbdfd9db *DESCRIPTION
-b4c7b0ccf2cdfa00fc9ba8ca0418cd9f *NAMESPACE
-db79ac0c9802b128db3851ee9a51b80b *NEWS.md
-fb81af595449724996330998c4cb57c9 *R/app_server.R
+0683137767ba8e24600a369972836e58 *DESCRIPTION
+7e9a2ec8e208572fc130539a35a40129 *NAMESPACE
+3df0f32faa40c121acfc880af01ede4b *NEWS.md
+761f2517c601d1698afffb0b8daadcfa *R/app_server.R
 012eabd9c2a4658087dcc1ccf613fe54 *R/app_ui.R
 ebdca4f8ac11de1af985393ff8639ed8 *R/spatialCatalogueViewer.R
 aef92890235f6381815ea4fbace29bfd *man/spatialCatalogueViewer.Rd
